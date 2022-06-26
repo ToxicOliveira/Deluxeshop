@@ -1,0 +1,42 @@
+@media(max-width:580px) {
+    video {
+        height: 50%;
+        padding-bottom: 5%;
+    }
+
+
+    .horario {
+        margin-right: 10%;
+    }
+
+    .horario .horas {
+
+        padding-right: 50%;
+
+    }
+
+    .feedback p {
+        padding-left: 15%;
+    }
+
+    .feedback {
+        margin-left: -70%;
+    }
+
+    .feedback {
+        margin-left: -70%;
+    }
+
+    .feedback text,
+    button {
+        padding-right: 50%;
+    }
+
+    footer .contatos {
+        padding-top: 10%;
+    }
+
+    footer .icones {
+        padding-top: 10%;
+    }
+}

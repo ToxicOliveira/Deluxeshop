@@ -1,0 +1,56 @@
+@media(max-width:580px) {
+    .imgfundo img {
+        height: 25%;
+        padding-bottom: 5%;
+    }
+
+    .carrosmercedes {
+        display: inline-block;
+    }
+
+    .carrosmercedes img {
+        width: 300%;
+    }
+
+
+    .carroslambo {
+        display: inline-block;
+    }
+
+    .carroslambo img {
+        width: 300%;
+    }
+
+    .carrosporche {
+        display: inline-block;
+    }
+
+    .carrosporche img {
+        width: 300%;
+    }
+
+
+    .carrosaudi {
+        display: inline-block;
+    }
+
+    .carrosaudi img {
+        width: 300%;
+    }
+
+    .carrosbentley {
+        display: inline-block;
+    }
+
+    .carrosbentley img {
+        width: 300%;
+    }
+
+    footer .contatos {
+        padding-top: 10%;
+    }
+
+    footer .icones {
+        padding-top: 10%;
+    }
+}

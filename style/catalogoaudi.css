@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: #272727;
+    width: 100%;
+}
+
+
+header {
+    display: flex;
+    padding: 20px 30px;
+    align-items: center;
+
+}
+
+.imgfundo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 65%;
+    min-width: 0;
+}
+
+.logo {
+    width: 10%;
+    border-radius: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #FF9900;
+}
+
+.carros {
+    margin-top: 25%;
+}
+
+
+
+.carrosaudi {
+    display: flex;
+    margin-left: 18%;
+}
+
+.carrosaudi img {
+    padding-top: 150px;
+    width: 90%;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.carrosaudi .n1 {
+    width: 35%;
+    margin-left: -7%;
+    margin-top: 2%;
+}
+
+
+
+
+
+.carrosaudi .n1 a {
+    display: inline-block;
+    padding: 9px 60px;
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    box-shadow: 0 0 0 2px #FF9900;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.carrosaudi .n2 {
+    padding-right: 70px;
+    width: 35%;
+}
+
+
+.carrosaudi .n2 img {
+    margin: 4px;
+    margin-left: -5%;
+}
+
+.carrosaudi .n2 a {
+    display: inline-block;
+    padding: 9px 60px;
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    box-shadow: 0 0 0 2px #FF9900;
+    margin-top: 15px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.carrosaudi .n3 {
+    width: 30%;
+    margin-top: 3%;
+    margin-left: -3%;
+
+}
+
+
+
+.carrosaudi .n3 a {
+    display: inline-block;
+    padding: 9px 60px;
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    box-shadow: 0 0 0 2px #FF9900;
+    margin-top: 2px;
+    margin-left: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+.carrosaudi .n4 {
+    width: 35%;
+    margin-left: -8%;
+    margin-top: 6%;
+}
+
+
+
+
+.carrosaudi .n4 a {
+    display: inline-block;
+    padding: 9px 60px;
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    box-shadow: 0 0 0 2px #FF9900;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.carrosaudi .n5 {
+    margin-top: 1%;
+    padding-right: 70px;
+    width: 22%;
+    margin-left: 3%;
+}
+
+
+.carrosaudi .n5 img {
+    margin: 4px;
+    width: 140%;
+}
+
+.carrosaudi .n5 a {
+    display: inline-block;
+    padding: 9px 60px;
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    box-shadow: 0 0 0 2px #FF9900;
+    margin-top: 15px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.carrosaudi .n6 {
+    width: 45%;
+    margin-left: 10%;
+    margin-top: 3%;
+
+}
+
+.carrosaudi .n6 img {
+    margin-left: -7%;
+
+}
+
+
+
+.carrosaudi .n6 a {
+    display: inline-block;
+    padding: 9px 60px;
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    box-shadow: 0 0 0 2px #FF9900;
+    margin-top: 2px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.carrosaudi .n7 {
+    margin-left: -9%;
+    width: 40%;
+
+}
+
+.carrosaudi .n7 img {
+    margin-left: -15%;
+}
+
+
+
+
+
+.carrosaudi .n7 a {
+    display: inline-block;
+    padding: 9px 60px;
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    box-shadow: 0 0 0 2px #FF9900;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.carrosaudi .n8 {
+    margin-left: -5%;
+    width: 40%;
+}
+
+
+.carrosaudi .n8 img {
+    margin-left: -6%;
+}
+
+.carrosaudi .n8 a {
+    display: inline-block;
+    padding: 9px 60px;
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    box-shadow: 0 0 0 2px #FF9900;
+    margin-top: 15px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.carrosaudi .n9 {
+    width: 35%;
+    margin-left: -5%;
+
+}
+
+
+
+.carrosaudi .n9 a {
+    display: inline-block;
+    padding: 9px 60px;
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    box-shadow: 0 0 0 2px #FF9900;
+    margin-top: 2px;
+    margin-left: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* footer */
+hr {
+    margin-top: 50px;
+    border-color: #686868;
+}
+
+.copy p {
+    text-align: left;
+    background-color: black;
+    color: #ffff;
+    padding-left: 100px;
+    font-weight: bold;
+}
+
+footer {
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: black;
+    color: white;
+}
+
+
+footer a img {
+    width: 50%;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+footer .icones {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contatos {
+    text-align: center;
+
+}
+
+
+
+.contatos p {
+    margin-top: 20px;
+
+}
+
+.ulfooter {
+    display: flex;
+    list-style: none;
+}
+
+.ulfooter li a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 15px;
+    margin-right: 30px;
+
+}

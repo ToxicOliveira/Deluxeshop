@@ -1,0 +1,35 @@
+@media(max-width:580px) {
+
+
+
+    .fundo img {
+        height: 50%;
+    }
+
+    .veiculosnov {
+        display: inline-block;
+    }
+
+    .texto {
+        display: inline-block;
+    }
+
+
+    .veiculostop {
+        display: inline-block;
+    }
+
+
+    .marcas {
+        display: inline-block;
+    }
+
+
+    footer .contatos {
+        padding-top: 10%;
+    }
+
+    footer .icones {
+        padding-top: 10%;
+    }
+}
